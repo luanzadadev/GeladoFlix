@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeladoFlix</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: black;
+        }
+
+        .header img {
+            height: 40px;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .movies {
+            display: flex;
+            gap: 20px;
+        }
+
+        .movies img {
+            width: 120px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="posteres/gelado.jpeg" alt="GeladoFlix Logo">
+        <div class="nav-menu">
+            <a href="#">Início</a>
+            <a href="#">Séries</a>
+            <a href="#">Filmes</a>
+            <a href="#">Minha Lista</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="section-title">Populares no GeladoFlix</div>
+        <div class="movies">
+            <img src="posteres/007.jpeg" alt="Filme 1">
+            <img src="posteres/kickass.jpeg" alt="Filme 2">
+            <img src="posteres/vidro.jpeg" alt="Filme 3">
+            <img src="posteres/tartarugas.jpeg" alt="Filme 4">
+            <img src="posteres/piratas.png" alt="Filme 5">
+        </div>
+    </div>
+
+</body>
+</html>
